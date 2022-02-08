@@ -4,6 +4,9 @@ public class Factors {
     public static ArrayList<Integer> getListOfFactors( int number ) {
         ArrayList<Integer> array = new ArrayList<Integer>();
 
+        for (int i = 2; i < number; i++ ) {
+            
+        }
 
 
         return array;
@@ -13,8 +16,8 @@ public class Factors {
         ArrayList<Integer> array = nums;
 
         for (int i = 0; i < nums.size(); i++) {
-            if (true) {
-                // System.out.println("ok");
+            for (int j = 0; j < nums.get(i); j++) {
+                // if j
             }
         }
 
@@ -24,7 +27,7 @@ public class Factors {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         ArrayList<Integer> nums = new ArrayList<Integer>();
-        System.out.print("Enter numbers >>> ");
+        System.out.print("Please enter an integer >>> ");
 
         nums.add(in.nextInt());
         
