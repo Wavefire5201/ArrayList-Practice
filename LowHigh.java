@@ -5,7 +5,6 @@ Find the lowest number in the list and the highest number in the list
 and print out those two values and the average of those two values.
 For example, given 1 2 3 4 5 6 7 8 9 10. Lowest 1, Highest 10, average 5.
 */
-// Enoch Zhu 10th 2/10/22
 import java.util.*;
 public class LowHigh {
     public static void main(String[] args) {
