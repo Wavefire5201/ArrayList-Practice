@@ -13,23 +13,23 @@ public class Factors {
         return array;
     }
 
-    public static ArrayList<String> keepOnlyCompositeNumbers( ArrayList<String> nums )
+    public static ArrayList<Integer> keepOnlyCompositeNumbers( ArrayList<String> nums )
     {
-        ArrayList<String> array = nums;
+        ArrayList<Integer> compositeNumbers = new ArrayList<Integer>();
 
-        // for (int i = 0; i < nums.size(); i++) {
-        //     int counter = 0;
-        //     for (int j = 2; j < nums.get(i); j++) {
-        //         if (nums.get(i) % i == 0) {
-        //             counter++;
-        //         }
-        //     }
-        //     if (counter > 2) {
-        //         array.remove(nums.get(i));
-        //     }
-        // }
-        // System.out.println(array);
-        return array;
+        for (int i = 0; i < nums.size(); i++) {
+            int counter = 0;
+            for (int j = 1; j < Integer.valueOf(nums.get(i)); j++) {
+                if (Integer.valueOf(nums.get(i)) % j == 0) {
+                    counter++;
+                }
+            }
+            if (counter > 2) {
+                compositeNumbers.add(Integer.valueOf(nums.get(i)));
+            }
+        }
+        compositeNumbers.sort(null);
+        return compositeNumbers;
     }
 
     public static void main(String[] args) {
@@ -47,7 +47,7 @@ public class Factors {
         }
 
         ArrayList<Integer> factorList = getListOfFactors(userInput);
-        ArrayList<String> compositeList = keepOnlyCompositeNumbers(x);
+        ArrayList<Integer> compositeList = keepOnlyCompositeNumbers(x);
         System.out.println(String.format("The factors of %s are: %s", userInput, factorList));
         System.out.println(String.format("The composite numbers are: %s", compositeList));
 
