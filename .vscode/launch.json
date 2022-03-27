@@ -1,63 +1,77 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Debug (Launch) - Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-CountingGame<ArrayList-Practice_73a9cdf6>",
-            "request": "launch",
-            "mainClass": "CountingGame",
-            "projectName": "ArrayList-Practice_73a9cdf6"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-Decreasing<ArrayList-Practice_73a9cdf6>",
-            "request": "launch",
-            "mainClass": "Decreasing",
-            "projectName": "ArrayList-Practice_73a9cdf6"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-Duplicate<ArrayList-Practice_73a9cdf6>",
-            "request": "launch",
-            "mainClass": "Duplicate",
-            "projectName": "ArrayList-Practice_73a9cdf6"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-Factors<ArrayList-Practice_73a9cdf6>",
-            "request": "launch",
-            "mainClass": "Factors",
-            "projectName": "ArrayList-Practice_73a9cdf6"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-LowHigh<ArrayList-Practice_73a9cdf6>",
-            "request": "launch",
-            "mainClass": "LowHigh",
-            "projectName": "ArrayList-Practice_73a9cdf6"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-MostFrequent<ArrayList-Practice_73a9cdf6>",
-            "request": "launch",
-            "mainClass": "MostFrequent",
-            "projectName": "ArrayList-Practice_73a9cdf6"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-ReadFiles<ArrayList-Practice_73a9cdf6>",
-            "request": "launch",
-            "mainClass": "ReadFiles",
-            "projectName": "ArrayList-Practice_73a9cdf6"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch MazeSolver",
+      "request": "launch",
+      "mainClass": "MazeSolver",
+      "projectName": "ArrayList-Practice_8fd57e67"
+    },
+    {
+      "type": "java",
+      "name": "Launch PointTester",
+      "request": "launch",
+      "mainClass": "PointTester",
+      "projectName": "ArrayList-Practice_8fd57e67"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-CountingGame<ArrayList-Practice_73a9cdf6>",
+      "request": "launch",
+      "mainClass": "CountingGame",
+      "projectName": "ArrayList-Practice_73a9cdf6"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Decreasing<ArrayList-Practice_73a9cdf6>",
+      "request": "launch",
+      "mainClass": "Decreasing",
+      "projectName": "ArrayList-Practice_73a9cdf6"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Duplicate<ArrayList-Practice_73a9cdf6>",
+      "request": "launch",
+      "mainClass": "Duplicate",
+      "projectName": "ArrayList-Practice_73a9cdf6"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Factors<ArrayList-Practice_73a9cdf6>",
+      "request": "launch",
+      "mainClass": "Factors",
+      "projectName": "ArrayList-Practice_73a9cdf6"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-LowHigh<ArrayList-Practice_73a9cdf6>",
+      "request": "launch",
+      "mainClass": "LowHigh",
+      "projectName": "ArrayList-Practice_73a9cdf6"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-MostFrequent<ArrayList-Practice_73a9cdf6>",
+      "request": "launch",
+      "mainClass": "MostFrequent",
+      "projectName": "ArrayList-Practice_73a9cdf6"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-ReadFiles<ArrayList-Practice_73a9cdf6>",
+      "request": "launch",
+      "mainClass": "ReadFiles",
+      "projectName": "ArrayList-Practice_73a9cdf6"
+    }
+  ]
 }
