@@ -67,7 +67,19 @@ public class Palabradle {
                     continue;
                 }
                 if (!dontAddEmpty) {output = output + "*";}
-
+                
+            }
+            if (guesses == 6) {
+                System.out.println("You have run out of tries. Would you like to go again? (y/n)");
+                String decision = in.nextLine();
+                if (decision.equals("y")) {
+                    guesses = 1;
+                    isNotSolved = true;
+                    solution = a.get((int)(Math.random() * a.size()));
+                    continue;
+                } else if (decision.equals("n")) {
+                    break;
+                }
             }
             System.out.println(output);
             // System.out.println(solution);
