@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Palabradle",
+      "request": "launch",
+      "mainClass": "Palabradle",
+      "projectName": "ArrayList-Practice_73a9cdf6"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - IncomeTaxTester",
+      "request": "launch",
+      "mainClass": "IncomeTaxTester",
+      "projectName": "ArrayList-Practice_73a9cdf6"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MazeSolver",
+      "request": "launch",
+      "mainClass": "MazeSolver.MazeSolver",
+      "projectName": "ArrayList-Practice_73a9cdf6"
+    },
+    {
+      "type": "java",
       "name": "Launch MazeSolver",
       "request": "launch",
       "mainClass": "MazeSolver",
